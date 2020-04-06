@@ -1,0 +1,33 @@
+﻿<Window x:Class="MenuAnimation.Properties_Arrow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenuAnimation"
+        mc:Ignorable="d"
+        Title="Properties_Arrow" Height="346.154" Width="598.328" ResizeMode="NoResize">
+    <Grid Background="#FF86B7DF" Margin="0,0,-6,-2.2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="169*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Background="White">
+            <TextBlock HorizontalAlignment="Center" Foreground="#FF86B7DF" Margin="136,14,66.4,0" TextWrapping="Wrap" Text="Свойства My_Arrow" VerticalAlignment="Top" FontSize="36" Height="48" Width="396"/>
+        </StackPanel>
+
+        <TextBox Name="X1" Foreground="White" HorizontalAlignment="Left" Height="52" Margin="154,9.6,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" FontSize="36" Grid.Row="1"/>
+        <TextBox Name="Y1" Foreground="White" HorizontalAlignment="Left" Height="52" Margin="154,97.6,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" FontSize="36" Grid.Row="1"/>
+        <TextBox Name="Width" Foreground="White" HorizontalAlignment="Left" Height="52" Margin="421,9.6,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" FontSize="36" Grid.Row="1"/>
+        <TextBox Name="Height" Foreground="White" HorizontalAlignment="Left" Height="52" Margin="421,97.6,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" FontSize="36" Grid.Row="1"/>
+        <TextBlock Foreground="White" HorizontalAlignment="Left" Margin="56,13.6,0,0" TextWrapping="Wrap" Text="X1" VerticalAlignment="Top" FontSize="36" Grid.Row="1" Height="48" Width="41"/>
+        <TextBlock Foreground="White" HorizontalAlignment="Left" Margin="56,101.6,0,0" TextWrapping="Wrap" Text="Y1" VerticalAlignment="Top" FontSize="36" Grid.Row="1" Height="48" Width="41"/>
+        <TextBlock Foreground="White" HorizontalAlignment="Left" Margin="297,13.6,0,0" TextWrapping="Wrap" Text="Width" VerticalAlignment="Top" FontSize="36" Grid.Row="1" Height="48" Width="119"/>
+        <TextBlock Foreground="White" HorizontalAlignment="Left" Margin="297,101.6,0,0" TextWrapping="Wrap" Text="Height" VerticalAlignment="Top" FontSize="36" Grid.Row="1" Height="48" Width="119"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="10" Margin="29,71.6,0,0" Grid.Row="1"  VerticalAlignment="Top" Width="540"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="10" Margin="29,160.6,0,0" Grid.Row="1"  VerticalAlignment="Top" Width="540"/>
+        <Button Click="Button_Click" Content="Change" FontSize="20" Foreground="White" HorizontalAlignment="Left" Height="36" Margin="230,199.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="155"/>
+
+    </Grid>
+</Window>
+
+
